@@ -13,13 +13,12 @@
 
   <main>
     <header>
-        <h1>Converter</h1>
+        <h1>Temperature Converter</h1>
     </header>
     <section class="inputs">
-        <input type="number" name="celcius" id="cel" class="input" placeholder="Celcius">
-        <input type="number" name="fahrenheit" id="fahr" class="input" placeholder="Fahrenheit">
-        <input type="number" name="kelvin" id="kel" class="input" placeholder="Kelvin">
-    </section>
+        <input type="number" name="celcius" id="celsius" class="input" placeholder="Celcius" oninput="celToFar()">
+        <input type="number" name="fahrenheit" id="fahrenheit" class="input" placeholder="Fahrenheit" oninput="farToCel()">
+     </section>
 </main>
 
 
